@@ -13,8 +13,12 @@ const StyledHeader = styled.header`
     justify-content: space-between;
     padding: .7rem;
     border: 2px solid  hsl(217, 16%, 45%);
-    width: 30rem;
+    width: 25rem;
     border-radius: 10px;
+    
+    @media (max-width: 470px) {
+        width: 70%;
+    }
 `
 
 const ScoreContainer = styled.div`
